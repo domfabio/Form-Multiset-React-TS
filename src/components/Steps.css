@@ -1,0 +1,38 @@
+.steps {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 400px;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+/* pseudo elemento - LINHA */
+.steps::after {
+  content: '';
+  width: 380px;
+  border-bottom: 1px solid #ccc;
+  position: absolute;
+  top: 20px;
+}
+
+.step {
+  text-align: center;
+  background-color: #fff;
+  z-index: 1;
+  flex: 1;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.step svg {
+  font-size: 1.6rem;
+  margin-bottom: 0.2rem;
+}
+
+.active, .active p {
+  color: #7076f4;
+}
+
