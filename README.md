@@ -22,7 +22,7 @@
 
 ### 📝 Sobre
 
-Projeto desenvolvido durante o curso **Formação Front-end - HTML, CSS, JavaScript, React e +**. Formulário multistep desenvolvido com **React + TypeScript**, que permite navegação entre etapas mantendo os dados preenchidos. <br>
+Projeto desenvolvido durante o curso **Formação Front-end - HTML, CSS, JavaScript, React e +**, da Comunidade Hora de Codar. Formulário multistep desenvolvido com **React + TypeScript**, que permite navegação entre etapas mantendo os dados preenchidos. <br>
 
 **O projeto visa exercitar controle de estado, reaproveitamento de componentes e navegação lógica entre passos**.
 
